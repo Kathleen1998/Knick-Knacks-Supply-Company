@@ -1,4 +1,4 @@
-# Online-Business-Insights
+# Knick Knacks Supply Company Analysis 
 
 Analyzed online sales data using SQL to identify key performance indicators and customer purchasing trends. Developed interactive dashboards in Tableau to visualize the data, providing stakeholders with real-time insights to optimize marketing strategies and inventory management.
 
