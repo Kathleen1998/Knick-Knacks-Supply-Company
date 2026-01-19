@@ -5,11 +5,11 @@ Analyzed online sales data using SQL to identify key performance indicators and 
 The source of my dataset comes from Kaggle. E-Commerce Data , it's a public dataset. "The UCI Machine Learning Repository has made this dataset containing actual transactions from 2010 and 2011." Also, ""This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers."" 
 https://www.kaggle.com/datasets/carrie1/ecommerce-data
 
+## KPI DASHBOARD
 
 <img width="1285" height="1026" alt="image" src="https://github.com/user-attachments/assets/cc8fa4f6-f645-4b7d-a16c-d93ae327fc2e" />
 (https://public.tableau.com/app/profile/kathleneanderson/viz/OnlineSalesKPIDashboard_17549599787590/KPIDASH)
 
-KPI
 The map highlights a significant revenue disparity across countries. The United Kingdom stands out with the highest revenue, exceeding $49 million, while other major countries like the United States, Canada, Brazil, and regions such as South Africa and Saudi Arabia generated a much smaller revenue, ranging from $5,000 to $30,000.
 
 To address the low revenue from these countries, a targeted marketing strategy is recommended. This could involve focused advertising campaigns and offering first-time customer discounts to help boost sales and increase market penetration.
@@ -85,7 +85,7 @@ FROM rfm;
 ```
 
 
-
+## PRODUCT ANALYSIS DASHBOARD
 <img width="1280" height="1008" alt="image" src="https://github.com/user-attachments/assets/270fadd4-f0cb-4dc6-9fd3-29a85506ed64" />
 
 (https://public.tableau.com/app/profile/kathleneanderson/viz/ProductAnalysisDashboard_17549601810070/PRODDASH)
@@ -128,6 +128,7 @@ group by productname
 order by ReturnedAmount desc;
 -- Finding filtering produts that have a negative quanity amount to find the returned items.
 ```
+## Recency Frequency Monetary Dashboard
 <img width="1285" height="1025" alt="image" src="https://github.com/user-attachments/assets/71aa44ad-1004-474f-ab0d-7359e4850879" /> 
 
 (https://public.tableau.com/app/profile/kathleneanderson/viz/RecencyFrequencyMonetaryDashboard/CUSDASH)
